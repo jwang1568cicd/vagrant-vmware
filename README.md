@@ -5,6 +5,41 @@ This project focus Ubuntu VM on Vagrant and VMware workstation Pro, where Vagran
 1. Download and install Broadcom VMware Workstation Pro, where version 17.5.2 build-23775571 with individual licence was used for my study. Please follow the official web site for latest release and availability.
 2. By default, VirtualBox is the default provider for Vagrant. You will need to install plugin for VMWare provider. I followed this link for updating the VMware plugin,vagrant plugin install vagrant-vmware-desktop. The link is https://developer.hashicorp.com/vagrant/docs/providers/vmware/installation 
 
+*** Read and follow the instructions...
+Installation of the Vagrant VMware provider requires two steps. First the Vagrant VMware Utility must be installed. This can be done by downloading and installing the correct system package from the Vagrant VMware Utility downloads page. https://developer.hashicorp.com/vagrant/downloads/vmware
+
+Next, install the Vagrant VMware provider plugin using the standard plugin installation procedure: vagrant plugin install vagrant-vmware-desktop
+***
+
+$ vagrant plugin
+Usage: vagrant plugin <command> [<args>]
+
+Available subcommands:
+     expunge
+     install
+     license
+     list
+     repair
+     uninstall
+     update
+
+For help on any individual command run `vagrant plugin COMMAND -h`
+        --[no-]color                 Enable or disable color output
+        --machine-readable           Enable machine readable output
+    -v, --version                    Display Vagrant version
+        --debug                      Enable debug output
+        --timestamp                  Enable timestamps on log output
+        --debug-timestamp            Enable debug output with timestamps
+        --no-tty                     Enable non-interactive output
+
+CICD-Student@DESKTOP-FNUA4LH MINGW64 ~/securityclass/vagrant-vmware
+$ vagrant plugin list
+vagrant-scp (0.5.9, global)
+vagrant-vbguest (0.32.0, global)
+  - Version Constraint: > 0
+vagrant-vmware-desktop (3.0.3, global)
+
+
 3. Same working Vagrantfile for Virtualbox could be reused with a slightly modification for config.vm.provider "vmware_desktop" as shown below.
 4. Make sure Virutalbox instances are disabled or shutdown to aviod resource conflict as I do not have chance to do so.
 
