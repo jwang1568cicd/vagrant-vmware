@@ -1,0 +1,94 @@
+total 5
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:36 ./
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 13:56 ../
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:03 .vagrant/
+-rw-r--r-- 1 CICD-Student 197121 155 Jul 16 14:02 Vagrantfile
+-rw-r--r-- 1 CICD-Student 197121   0 Jul 16 14:36 VmW-files.txt
+
+./.vagrant:
+total 4
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 14:03 ./
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 14:36 ../
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 14:03 bundler/
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 13:10 machines/
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 14:03 rgloader/
+
+./.vagrant/bundler:
+total 1
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:03 ./
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:03 ../
+-rw-r--r-- 1 CICD-Student 197121 382 Jul 16 14:03 global.sol
+
+./.vagrant/machines:
+total 0
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 13:10 ./
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 14:03 ../
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 13:10 default/
+
+./.vagrant/machines/default:
+total 4
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 13:10 ./
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 13:10 ../
+drwxr-xr-x 1 CICD-Student 197121 0 Jul 16 14:12 vmware_desktop/
+
+./.vagrant/machines/default/vmware_desktop:
+total 21
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:12 ./
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 13:10 ../
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:17 3ebf2023-10b7-422d-99a2-0ca540ea0e0b/
+-rw-r--r-- 1 CICD-Student 197121 162 Jul 16 14:12 action_provision
+-rw-r--r-- 1 CICD-Student 197121 148 Jul 16 14:12 box_meta
+-rw-r--r-- 1 CICD-Student 197121   1 Jul 16 14:10 creator_uid
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 13:57 e4766923-1e66-498b-8523-0a6060528b53/
+-rw-r--r-- 1 CICD-Student 197121  11 Jul 16 14:12 forwarded_ports
+-rw-r--r-- 1 CICD-Student 197121 158 Jul 16 14:10 id
+-rw-r--r-- 1 CICD-Student 197121  32 Jul 16 14:10 index_uuid
+-rw-r--r-- 1 CICD-Student 197121 400 Jul 16 14:12 private_key
+-rw-r--r-- 1 CICD-Student 197121   2 Jul 16 14:12 synced_folders
+-rw-r--r-- 1 CICD-Student 197121  50 Jul 16 14:10 vagrant_cwd
+
+./.vagrant/machines/default/vmware_desktop/3ebf2023-10b7-422d-99a2-0ca540ea0e0b:
+total 1115108
+drwxr-xr-x 1 CICD-Student 197121          0 Jul 16 14:17 ./
+drwxr-xr-x 1 CICD-Student 197121          0 Jul 16 14:12 ../
+-rw-r--r-- 1 CICD-Student 197121 1073741824 Jul 16 14:10 564d9620-800f-3974-ce19-722418d624a4.vmem
+drwxr-xr-x 1 CICD-Student 197121          0 Jul 16 14:10 564d9620-800f-3974-ce19-722418d624a4.vmem.lck/
+-rw-r--r-- 1 CICD-Student 197121   67108864 Jul 16 14:36 generic-ubuntu2004-vmware-cl1.vmdk
+drwxr-xr-x 1 CICD-Student 197121          0 Jul 16 14:10 generic-ubuntu2004-vmware-cl1.vmdk.lck/
+-rw-r--r-- 1 CICD-Student 197121       8684 Jul 16 14:36 generic-ubuntu2004-vmware.nvram
+-rw-r--r-- 1 CICD-Student 197121       8192 Jul 16 14:10 generic-ubuntu2004-vmware.scoreboard
+-rw-r--r-- 1 CICD-Student 197121        252 Jul 16 14:10 generic-ubuntu2004-vmware.vmsd
+-rw-r--r-- 1 CICD-Student 197121       3762 Jul 16 14:10 generic-ubuntu2004-vmware.vmx
+-rw-r--r-- 1 CICD-Student 197121        280 Jul 16 14:10 generic-ubuntu2004-vmware.vmxf
+-rw-r--r-- 1 CICD-Student 197121         36 Jul 16 14:10 source-snapshot
+-rw-r--r-- 1 CICD-Student 197121        121 Jul 16 14:10 source-vmx
+-rw-r--r-- 1 CICD-Student 197121     119561 Jul 16 14:17 vmware.log
+
+./.vagrant/machines/default/vmware_desktop/3ebf2023-10b7-422d-99a2-0ca540ea0e0b/564d9620-800f-3974-ce19-722418d624a4.vmem.lck:
+total 5
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:10 ./
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:17 ../
+-rw-r--r-- 1 CICD-Student 197121 512 Jul 16 14:10 M32036.lck
+
+./.vagrant/machines/default/vmware_desktop/3ebf2023-10b7-422d-99a2-0ca540ea0e0b/generic-ubuntu2004-vmware-cl1.vmdk.lck:
+total 5
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:10 ./
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:17 ../
+-rw-r--r-- 1 CICD-Student 197121 512 Jul 16 14:10 M03905.lck
+
+./.vagrant/machines/default/vmware_desktop/e4766923-1e66-498b-8523-0a6060528b53:
+total 1722716
+drwxr-xr-x 1 CICD-Student 197121          0 Jul 16 13:57 ./
+drwxr-xr-x 1 CICD-Student 197121          0 Jul 16 14:12 ../
+-rw-r--r-- 1 CICD-Student 197121 1763770368 Jul 16 14:36 generic-ubuntu2004-vmware-cl1.vmdk
+-rw-r--r-- 1 CICD-Student 197121       8684 Jul 16 14:21 generic-ubuntu2004-vmware.nvram
+-rw-r--r-- 1 CICD-Student 197121       8192 Jul 16 13:30 generic-ubuntu2004-vmware.scoreboard
+-rw-r--r-- 1 CICD-Student 197121     117971 Jul 16 14:25 vmware.log
+
+./.vagrant/rgloader:
+total 1
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:03 ./
+drwxr-xr-x 1 CICD-Student 197121   0 Jul 16 14:03 ../
+-rw-r--r-- 1 CICD-Student 197121 423 Jul 16 14:03 loader.rb
+
+
